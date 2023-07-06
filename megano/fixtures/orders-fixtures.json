@@ -1,0 +1,105 @@
+[
+  {
+    "model": "order.order",
+    "pk": 1,
+    "fields": {
+      "createdAt": "2023-06-24T00:55:20.687Z",
+      "user": 1,
+      "deliveryType": null,
+      "paymentType": null,
+      "totalCost": "1000.00",
+      "status": "Оплачен",
+      "city": "й23еп3уе",
+      "address": "е3е33е3еееееееее",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 2,
+    "fields": {
+      "createdAt": "2023-06-24T00:59:31.756Z",
+      "user": 1,
+      "deliveryType": null,
+      "paymentType": null,
+      "totalCost": "1000.00",
+      "status": null,
+      "city": null,
+      "address": null,
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 3,
+    "fields": {
+      "createdAt": "2023-06-24T01:07:50.510Z",
+      "user": 1,
+      "deliveryType": null,
+      "paymentType": null,
+      "totalCost": "1000.00",
+      "status": null,
+      "city": null,
+      "address": null,
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 4,
+    "fields": {
+      "createdAt": "2023-06-24T01:09:49.307Z",
+      "user": 1,
+      "deliveryType": null,
+      "paymentType": null,
+      "totalCost": "1000.00",
+      "status": null,
+      "city": null,
+      "address": null,
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "order.order",
+    "pk": 5,
+    "fields": {
+      "createdAt": "2023-06-24T01:12:58.950Z",
+      "user": 1,
+      "deliveryType": "express",
+      "paymentType": "someone",
+      "totalCost": "1050.00",
+      "status": "accepted",
+      "city": "wegwegeg",
+      "address": "wegweg4233t",
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "order.countproductinorder",
+    "pk": 1,
+    "fields": {
+      "order": 5,
+      "product": 1,
+      "count": 1
+    }
+  },
+  {
+    "model": "order.countproductinorder",
+    "pk": 2,
+    "fields": {
+      "order": 1,
+      "product": 1,
+      "count": 1
+    }
+  }
+]

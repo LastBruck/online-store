@@ -1,0 +1,20 @@
+[
+  {
+    "model": "user.profile",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "fullName": "Bobby",
+      "email": "test@test.com",
+      "phone": "89991112233"
+    }
+  },
+  {
+    "model": "user.avatar",
+    "pk": 1,
+    "fields": {
+      "profile": 1,
+      "image": "avatars/avatar_user_id_1/cat.jpg"
+    }
+  }
+]

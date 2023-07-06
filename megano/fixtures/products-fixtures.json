@@ -1,0 +1,315 @@
+[
+  {
+    "model": "product.category",
+    "pk": 1,
+    "fields": {
+      "title": "Ноутбуки",
+      "active": true,
+      "favourite": true,
+      "parent": 1
+    }
+  },
+  {
+    "model": "product.category",
+    "pk": 2,
+    "fields": {
+      "title": "Телефоны",
+      "active": true,
+      "favourite": false,
+      "parent": 2
+    }
+  },
+  {
+    "model": "product.category",
+    "pk": 3,
+    "fields": {
+      "title": "PC",
+      "active": true,
+      "favourite": false,
+      "parent": 3
+    }
+  },
+  {
+    "model": "product.category",
+    "pk": 4,
+    "fields": {
+      "title": "Apple",
+      "active": true,
+      "favourite": true,
+      "parent": 1
+    }
+  },
+  {
+    "model": "product.category",
+    "pk": 5,
+    "fields": {
+      "title": "Apple",
+      "active": true,
+      "favourite": false,
+      "parent": 2
+    }
+  },
+  {
+    "model": "product.category",
+    "pk": 6,
+    "fields": {
+      "title": "Фены",
+      "active": true,
+      "favourite": false,
+      "parent": 6
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+      "category": 4,
+      "price": "950.00",
+      "count": 5,
+      "date": "2023-06-19T00:32:45.774Z",
+      "title": "Apple MacBook Pro 16",
+      "description": "Apple MacBook Pro 16 M2 512гб",
+      "fullDescription": "Apple MacBook Pro 16 M2 512гб озу 8гб",
+      "freeDelivery": true,
+      "active": true,
+      "limited_edition": true,
+      "rating": "4.50"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 2,
+    "fields": {
+      "category": 5,
+      "price": "900.00",
+      "count": 10,
+      "date": "2023-06-25T19:23:32.484Z",
+      "title": "Apple iPhone 14 Pro black 256 гб",
+      "description": "Apple iPhone 14 Pro black 256 гб",
+      "fullDescription": "У iPhone 14 Pro 6,1--дюймовая панель. Пиковая яркость — 2000 нит. Используется небольшой вырез с датчиком фронтальной камеры и системой Face ID. Кроме того, он способен визуально уменьшаться и увеличиваться. Предусмотрен режим Always-on Display (экран всегда включен).\r\nАппаратная основа — A16 Bionic. Это 4-нм SoC с производительным GPU и дополнительным процессором Image Signal Proccessor для повышения качества снимков.\r\nТыльная камера iPhone 14 Pro тройная, на 48, 12 и 12 Мп. Ночью iPhone 14 Pro снимает в два раза лучше, чем iPhone 13 Pro. Селфи-камера на 12 Мп.",
+      "freeDelivery": true,
+      "active": true,
+      "limited_edition": false,
+      "rating": "5.00"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 3,
+    "fields": {
+      "category": 6,
+      "price": "537.96",
+      "count": 15,
+      "date": "2023-06-25T19:41:35.520Z",
+      "title": "Фен Dyson Supersonic HD07, фуксия/яркий никель",
+      "description": "Фен Dyson Supersonic HD07, фуксия/яркий никель (386732-01) со скоростью воздушного потока 41 л/сек и потребляемой мощностью 1600 Вт",
+      "fullDescription": "Фен Dyson Supersonic HD07, фуксия/яркий никель (386732-01) со скоростью воздушного потока 41 л/сек и потребляемой мощностью 1600 Вт поможет в течение небольшого промежутка времени высушить волосы и сделать укладку. При необходимости пользователь может самостоятельно отрегулировать температурный и скоростной режимы с помощью механических кнопок, удобно расположенных на лицевой стороне ручки. Уровень шума при работе модели составляет всего 77 дБ, что способствует комфорту пользователя во время укладки.\r\n\r\nВ процессе изготовления корпуса фена Dyson Supersonic HD07, фуксия/яркий никель (386732-01) применяются высокопрочные материалы, устойчивые к повреждениям и поломке из-за неблагоприятного внешнего воздействия. Чтобы сократить вероятность поломки внутренних узлов, устройство автоматически отключается при перегреве. Модель комплектуется диффузором, с помощью которого можно предотвратить спутывание вьющихся волос при сушке.",
+      "freeDelivery": false,
+      "active": true,
+      "limited_edition": false,
+      "rating": "3.50"
+    }
+  },
+  {
+    "model": "product.productimage",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "name": "MacBook",
+      "image": "products/product_1/images/apple-macbook-pro-16-myshop-pk-1_5_1_bg9tS5W.jpg"
+    }
+  },
+  {
+    "model": "product.productimage",
+    "pk": 2,
+    "fields": {
+      "product": 2,
+      "name": "Apple iPhone 14 Pro черный",
+      "image": "products/product_2/images/iPhone_14.jpeg"
+    }
+  },
+  {
+    "model": "product.productimage",
+    "pk": 3,
+    "fields": {
+      "product": 3,
+      "name": "Фен Dyson Supersonic HD07, фуксия/яркий никель",
+      "image": "products/product_3/images/фен_dyson.jpg"
+    }
+  },
+  {
+    "model": "product.tag",
+    "pk": 1,
+    "fields": {
+      "name": "Phone",
+      "product": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "product.tag",
+    "pk": 2,
+    "fields": {
+      "name": "Notebook",
+      "product": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "product.tag",
+    "pk": 3,
+    "fields": {
+      "name": "Apple",
+      "product": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "product.tag",
+    "pk": 4,
+    "fields": {
+      "name": "Фен",
+      "product": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "product.review",
+    "pk": 1,
+    "fields": {
+      "author": "test",
+      "email": "test@test.ru",
+      "text": "test",
+      "rate": 3,
+      "date": "2023-06-25T20:02:00.032Z",
+      "product": 3
+    }
+  },
+  {
+    "model": "product.review",
+    "pk": 2,
+    "fields": {
+      "author": "Bobby",
+      "email": "test@test.ru",
+      "text": "Тестовый отзыв",
+      "rate": 4,
+      "date": "2023-06-25T20:02:42.774Z",
+      "product": 3
+    }
+  },
+  {
+    "model": "product.review",
+    "pk": 3,
+    "fields": {
+      "author": "Nick",
+      "email": "test@test.ru",
+      "text": "Тестируем тестируем тестируем тестируем тестируем тестируем",
+      "rate": 4,
+      "date": "2023-06-25T20:03:49.408Z",
+      "product": 1
+    }
+  },
+  {
+    "model": "product.review",
+    "pk": 4,
+    "fields": {
+      "author": "Bobby",
+      "email": "test@test.ru",
+      "text": "test test tesdt",
+      "rate": 5,
+      "date": "2023-06-25T20:05:02.961Z",
+      "product": 2
+    }
+  },
+  {
+    "model": "product.review",
+    "pk": 5,
+    "fields": {
+      "author": "Bobby",
+      "email": "test@test.ru",
+      "text": "Добавляем рейтинга",
+      "rate": 5,
+      "date": "2023-06-25T20:07:11.084Z",
+      "product": 1
+    }
+  },
+  {
+    "model": "product.productspecification",
+    "pk": 1,
+    "fields": {
+      "name": "Диагональ",
+      "value": "16.2\"",
+      "product": 1
+    }
+  },
+  {
+    "model": "product.productspecification",
+    "pk": 2,
+    "fields": {
+      "name": "Диагональ",
+      "value": "6.1\"",
+      "product": 2
+    }
+  },
+  {
+    "model": "product.productspecification",
+    "pk": 3,
+    "fields": {
+      "name": "Разрешение экрана",
+      "value": "2556x1179",
+      "product": 2
+    }
+  },
+  {
+    "model": "product.productspecification",
+    "pk": 4,
+    "fields": {
+      "name": "Разрешение экрана",
+      "value": "3456x2234",
+      "product": 1
+    }
+  },
+  {
+    "model": "product.productspecification",
+    "pk": 5,
+    "fields": {
+      "name": "Количество скоростей",
+      "value": "3",
+      "product": 3
+    }
+  },
+  {
+    "model": "product.productspecification",
+    "pk": 6,
+    "fields": {
+      "name": "Количество температурных режимов",
+      "value": "4",
+      "product": 3
+    }
+  },
+  {
+    "model": "product.productspecification",
+    "pk": 7,
+    "fields": {
+      "name": "Потребляемая мощность",
+      "value": "1600 Вт",
+      "product": 3
+    }
+  },
+  {
+    "model": "product.sale",
+    "pk": 1,
+    "fields": {
+      "price": "1000.00",
+      "salePrice": "950.00",
+      "dateFrom": "2023-06-25",
+      "dateTo": "2023-06-30",
+      "product": 1
+    }
+  }
+]
