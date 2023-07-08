@@ -5,7 +5,7 @@
 Обращение за данными происходит по **API** с помощью **Django Rest Framework**.  
 
 ## Установка и запуск проекта:  
-* ```git clone https://gitlab.skillbox.ru/andrei_iaroshenko/Python_django_diploma_dpo.git```, создать виртуальное ```venv``` окружение  
+* ```git clone https://github.com/LastBruck/online-store.git```, создать виртуальное ```venv``` окружение  
 * ```pip install -r megano/requirements.txt``` - установка зависимостей  
 ### Установка diploma-frontend:  
 * ```cd diploma-frontend && python setup.py sdist``` - собираем пакет  
